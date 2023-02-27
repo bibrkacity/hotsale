@@ -4,13 +4,11 @@
 
 ## Installation
 
-- Clone repository from [https://github.com/bibrkacity/media.git](https://github.com/bibrkacity/media.git).
-- Save **/.env.example** as **/.env**
+- Clone repository from [https://github.com/bibrkacity/hotsale.git](https://github.com/bibrkacity/hotsale.git).
 - Run **composer install**
+- Save **/.env.example** as **/.env**
 - Edit **/.env** - write your parameters of MySQL connection
 - Run migrations **php artisan migrate**
-- Run **php artisan db:seed**
-- Update API-docs **php artisan l5-swagger:generate**
 - Run **php artisan serve**
 - Go to [http://127.0.0.1:8000](http://127.0.0.1:8000) in your browser
 - Enjoy!
