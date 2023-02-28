@@ -39,7 +39,9 @@ function fail(jVal){
 
     let div = document.getElementById('errors');
 
-    div.childNodes.length=0;
+    while(div.firstChild){
+        div.removeChild(div.firstChild);
+    }
 
     if(typeof jVal.message === 'object'){
         for(let key in jVal.message){
